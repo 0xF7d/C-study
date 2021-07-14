@@ -76,9 +76,9 @@
 
  * ASCII:
    		       Control codes Printable characters 
-	|---------------------------------------------------------|
+	|-------------------------------------------------------------|
 	|	0d 0x Code |  0d 0x Char   | 0d 0x Char  | 0d 0x Char |
-	|---------------------------------------------------------| 
+	|-------------------------------------------------------------| 
 	|	0  0   NULL|  32  20 SPACE | 64 40   @   | 96  60  `  |
 	|	1  1   SOH |  33  21   !   | 65 41   A   | 97  61  a  | 
 	|	2  2   STX |  34  22   "   | 66 42   B   | 98  62  b  |  
@@ -111,7 +111,7 @@
 	|	29 1d  GS  |  61  3d   =   | 93 5d   ]   | 125 7d  }  |       
 	|	30 1e  RS  |  62  3f   >   | 94 5e   ^   | 126 7e  ~  |    
 	|	31 1f  US  |  63  3e   ?   | 95 5f   _   | 127 7f  DEL|     
-	|---------------------------------------------------------|
+	|-------------------------------------------------------------|
 
 KEY
 NULL:string terminator,EOT:end of transmission/terminates shell session,BELL:causes device to make noise,BS:backspace(erase last character),HT:horizontal tab(move cursor to right)LF:line feed(end-of-line marker),CR:carriage return(used in combination with LF as EOL for Windows),SUB:substitute char/end of file/ctrl-Z/suspend
