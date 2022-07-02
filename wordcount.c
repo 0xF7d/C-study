@@ -1,4 +1,9 @@
-/* cat <filename> | ./wordcount*/
+/* cat <filename> | ./wordcount
+ * n1 = new line
+ * nw = space
+ * nc = char
+*/
+
 #include <stdio.h>
 
 #define IN 0 /* Inside a word */
@@ -14,7 +19,7 @@ int main(){
 		++nc;
 		if (c == '\n')	
 			++n1;
-		if (c == ' ' || c == '\n' || c == '\t')	
+		if (c == ' ' || c == '\n' || c == '\t')	//c is blank \| c is newline \| c is tab
 			state = OUT;
 		else if ( state == OUT)
 		{
