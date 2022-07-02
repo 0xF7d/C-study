@@ -1,10 +1,10 @@
-/* i^10
- * 2^10
- * 3^10
+/* i^10 (i)
+ * 2^10 (int m)
+ * 3^10 (int n)
  */
 
 #include <stdio.h>
-int power(int m, int n);
+int power(int m, int n); 
 
 /* test power funct*/
 int main()
